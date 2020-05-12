@@ -1,3 +1,12 @@
+ 
+{  
+   This file contains the declaration of constants and dependencies, used in the generator:
+    - dependencies: ctr, graph units
+    - type definitions of variables: 
+        - gm, gd, key, a, b, i, flight_number etc
+    - definition of constants: act, seat_capx_s:string, seat_capx:integer
+}  
+
 uses crt, graph;
 var	gm, gd: integer;
 key: char;
@@ -14,6 +23,10 @@ season: string;
 types: string;
 name: string;
 f: text;
+
+{
+    Seating capacity for aircrafts - bound to specific airlines in scr_generators.pas
+}
 
 const 	act=8;
 seat_cap1_s='145';
