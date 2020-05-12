@@ -1,8 +1,8 @@
 {  
     SCR generator - it uses the data from the input_data.pas script
     to generate the SCR message. 
-    Also contains a definition of aircraft seating capacity. Values for
-    the seating are taken from const.pas and are connected to the exact planes.
+    It also contains a definition of aircraft seating capacity. Value for
+    the seating is taken from const.pas and is connected to the exact planes.
     Example - "if ac[i]=1 then name:=seat_cap1_s+'B735';" matches seat_cap1_s const
     from const.pas file with Boeing 735
 }
@@ -17,7 +17,7 @@ begin
   writeln(date_request);
   writeln(iata_code);
 
-{ Flight number iterator - from 1 to number of flights, inputed by the user. }
+{ Flight number iterator - from 1 to number of flights, inputted by the user. }
   for i := 1 to flight_number do
   begin
 

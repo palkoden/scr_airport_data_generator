@@ -1,6 +1,6 @@
  
 {  
-   This file contains a declaration of constants and dependencies, used in the generator:
+   Const file contains a declaration of constants and dependencies, used in the generator:
     - dependencies: ctr, graph units
     - type definitions of variables: 
         - gm, gd, key, a, b, i, flight_number etc
@@ -24,9 +24,7 @@ types: string;
 name: string;
 f: text;
 
-{
-    Seating capacity for aircrafts - bound to specific aircrafts in scr_generators.pas
-}
+{ Seating capacity for aircraft - bound to specific aircraft in scr_generators.pas }
 const 	act=8;
 seat_cap1_s='145';
 seat_cap2_s='180';
