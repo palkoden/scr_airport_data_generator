@@ -11,7 +11,7 @@ begin
   clrscr;
   randomize;
 
-  Assign(f, 'data.txt'); { File for writting is created and opened. }
+  Assign(f, 'data.txt'); { File for writing is created and opened. }
   rewrite(f);
 
   textcolor(yellow);
