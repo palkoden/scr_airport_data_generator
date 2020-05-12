@@ -1,3 +1,16 @@
+ 
+{  
+   Constructor of an interface for inputing SCR data, used by the generator.
+   Data requiered:
+    - airport IATA code
+    - season
+    - date of SCR message origin
+    - date of slots requests generation
+    - number of flights
+    - middle value of load factor
+    - value of diffusion for load factor
+}  
+
 clrscr;
 flight_number:=0;
 diffusion:=0;
