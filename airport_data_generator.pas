@@ -4,7 +4,6 @@
 
 }
 
-
 program airport_data_generator;
 
 begin

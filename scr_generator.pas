@@ -6,6 +6,7 @@
     Example - "if ac[i]=1 then name:=seat_cap1_s+'B735';" matches seat_cap1_s const
     from const.pas file with Boeing 735
 }
+
 program scr_generator;
 
 begin
